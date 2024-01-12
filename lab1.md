@@ -1,7 +1,7 @@
 # Lab Report 1 - Remote Access and FileSystem
 
 # The `cd` Command
-##      1. Analyzing the `cd` command with **NO** argument
+## &nbsp;&nbsp;&nbsp;&nbsp; Analyzing the `cd` command with **NO** argument
 
 ```
 [user@sahara ~]$ cd
