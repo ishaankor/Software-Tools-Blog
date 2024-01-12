@@ -1,20 +1,21 @@
 # Lab Report 1 - Remote Access and FileSystem
 
-# 1. The `cd` Command
-## Analyzing the `cd` command with **NO** argument
+# The `cd` Command
+##      1. Analyzing the `cd` command with **NO** argument
 
 ```
 [user@sahara ~]$ cd
 [user@sahara ~]$
 ```
-## Analyzing the `cd` command with a **DIRECTORY PATH** argument
+
+##      2. Analyzing the `cd` command with a **DIRECTORY PATH** argument
 
 ```
 [user@sahara ~]$ cd /home/lecture1
 [user@sahara ~/lecture1]$ 
 ```
 
-## Analyzing the `cd` command with a **FILE PATH** argument
+##      3. Analyzing the `cd` command with a **FILE PATH** argument
 
 ```
 [user@sahara ~]$ cd /home/lecture1/README
