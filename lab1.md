@@ -4,38 +4,30 @@
   
 ## 1. The `cd` Command
 
+<ul>
+
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Analyzing the `cd` command with **NO** argument
 
-<ul><ul><ul>
-  
 ```
 [user@sahara ~]$ cd
 [user@sahara ~]$
 ```
 
-</ul></ul></ul>
-
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Analyzing the `cd` command with a **DIRECTORY PATH** argument
-
-<ul><ul><ul>
 
 ``` 
 [user@sahara ~]$ cd /home/lecture1
 [user@sahara ~/lecture1]$ 
 ```
 
-</ul></ul></ul>
-
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Analyzing the `cd` command with a **FILE PATH** argument
-
-<ul><ul><ul>
 
 ```
 [user@sahara ~]$ cd /home/lecture1/README
 bash: cd: /home/lecture1/README: Not a directory
 ```
 
-</ul></ul></ul>
+</ul>
 
 ## 2. Analyzing the `ls` command
 
