@@ -7,6 +7,8 @@
   <ol markdown="1">
     
   ### - Analyzing the `cd` command with **NO** argument
+
+  <ol markdown="1">
   
   ```
   [user@sahara ~]$ cd
@@ -26,7 +28,7 @@
 
   </ol>
 
-  ### - ### - Analyzing the `cd` command with a **FILE PATH** argument
+  ### - Analyzing the `cd` command with a **FILE PATH** argument
 
   <ol markdown="1">
 
