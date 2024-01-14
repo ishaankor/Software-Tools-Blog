@@ -66,8 +66,9 @@
        
        ```
        [user@sahara ~]$ cat
-  
+       [terminal copies keyboard inputs]
        ```
+       
    - ### Analyzing the `cat` command with a **DIRECTORY PATH** argument
      
      - TESTING!
