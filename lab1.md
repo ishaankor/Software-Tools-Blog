@@ -1,116 +1,74 @@
 # Lab Report 1 - Remote Access and FileSystem
   
 ## 1. The `cd` Command
-
-  <ol markdown="1">
     
-  ### - Analyzing the `cd` command with **NO** argument
+### - Analyzing the `cd` command with **NO** argument
 
-  ```
-  [user@sahara ~]$ cd
-  [user@sahara ~]$
-  ```
+```
+[user@sahara ~]$ cd
+[user@sahara ~]$
+```
 
-  </ol>
+### - Analyzing the `cd` command with a **DIRECTORY PATH** argument
 
-  <ol markdown="1">
+```
+[user@sahara ~]$ cd /home/lecture1
+[user@sahara ~/lecture1]$ 
+```
 
-  ### - Analyzing the `cd` command with a **DIRECTORY PATH** argument
+### - Analyzing the `cd` command with a **FILE PATH** argument
 
-  ```
-  [user@sahara ~]$ cd /home/lecture1
-  [user@sahara ~/lecture1]$ 
-  ```
+```
+[user@sahara ~]$ cd /home/lecture1/README
+bash: cd: /home/lecture1/README: Not a directory
+```
 
-  </ol>
-
-  <ol markdown="1">
-
-  ### - Analyzing the `cd` command with a **FILE PATH** argument
-
-  ```
-  [user@sahara ~]$ cd /home/lecture1/README
-  bash: cd: /home/lecture1/README: Not a directory
-  ```
-
-  </ol>
-
-  ## 2. The `ls` command
-
-  <ol markdown="1">
+## 2. The `ls` command
     
-  ### - Analyzing the `ls` command with **NO** argument
+### - Analyzing the `ls` command with **NO** argument
     
-  ```
-  [user@sahara ~]$ ls
-  lecture1
-  ```
+```
+[user@sahara ~]$ ls
+lecture1
+```
 
-  </ol>
+### - Analyzing the `ls` command with a **DIRECTORY PATH** argument
 
-  <ol markdown="1">
+```
+[user@sahara ~]$ ls /home/lecture1
+Hello.class  Hello.java  messages  README
+```
 
-  ### - Analyzing the `ls` command with a **DIRECTORY PATH** argument
+### - Analyzing the `ls` command with a **FILE PATH** argument
 
-  ```
-  [user@sahara ~]$ ls /home/lecture1
-  Hello.class  Hello.java  messages  README
-  ```
+```
+[user@sahara ~]$ ls /home/lecture1/README
+/home/lecture1/README
+```
 
-  </ol>
+## 3. The `cat` command
 
-  <ol markdown="1">
-
-  ### - Analyzing the `ls` command with a **FILE PATH** argument
-
-  ```
-  [user@sahara ~]$ ls /home/lecture1/README
-  /home/lecture1/README
-  ```
-
-  </ol>
-
-  ## 3. The `cat` command
-
-  <ol markdown="1">
+### - Analyzing the `cat` command with **NO** argument
     
-  ### - Analyzing the `cat` command with **NO** argument
-    
-  ```
-  [user@sahara ~]$ cat
+```
+[user@sahara ~]$ cat
+
+```
+
+### - Analyzing the `cat` command with a **DIRECTORY PATH** argument
+
+```
+[user@sahara ~]$ cat /home/lecture1
+cat: /home/lecture1: Is a directory
+```
+
+### - Analyzing the `cat` command with a **FILE PATH** argument
+
+```
+[user@sahara ~]$ cat /home/lecture1/README
+To use this program:
   
-  ```
-
-  </ol>
-
-  <ol markdown="1">
-
-  ### - Analyzing the `cat` command with a **DIRECTORY PATH** argument
-
-  ```
-  [user@sahara ~]$ cat /home/lecture1
-  cat: /home/lecture1: Is a directory
-  ```
-
-  </ol>
-
-  <ol markdown="1">
-
-  ### - Analyzing the `cat` command with a **FILE PATH** argument
-
-  ```
-  [user@sahara ~]$ cat /home/lecture1/README
-  To use this program:
+javac Hello.java
+java Hello messages/en-us.txt
+```
   
-  javac Hello.java
-  java Hello messages/en-us.txt
-  ```
-
-  </ol>
-
-</div>
-  
-
-
-
-
