@@ -2,7 +2,7 @@
   
 ## 1. The `cd` Command
   
-### - Analyzing the `cd` command with **NO** argument
+> ### - Analyzing the `cd` command with **NO** argument
 
 ```
 [user@sahara ~]$ cd
