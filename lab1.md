@@ -39,7 +39,7 @@ bash: cd: /home/lecture1/README: Not a directory
       
 </ul></ul>
 
-## 2. Analyzing the `ls` command
+## 2. The `ls` command
 
 <ul>
 
@@ -77,7 +77,7 @@ Hello.class  Hello.java  messages  README
 </ul></ul>
 
 
-## 3. Analyzing the `cat` command
+## 3. The `cat` command
 
 <ul>
 
