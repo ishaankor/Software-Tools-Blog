@@ -31,7 +31,7 @@
        
 2. ## The *`ls`* command
    
-   - ### Analyzing the `ls` command with ***NO*** argument
+   - ### Analyzing the `ls` command with ***NO*** arguments
      
      - TESTING!
        
@@ -60,7 +60,7 @@
        
 5. ## The *`cat`* command
    
-   - ### Analyzing the `cat` command with ***NO*** argument
+   - ### Analyzing the `cat` command with ***NO*** arguments
      
      - TESTING!
        
