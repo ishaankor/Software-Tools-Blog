@@ -3,12 +3,12 @@
 ## &nbsp;&nbsp;&nbsp;&nbsp; 1. The `cd` Command
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Analyzing the `cd` command with **NO** argument
-Testing, one --> two --> three!
+<ul>
 ```
 [user@sahara ~]$ cd
 [user@sahara ~]$
 ```
-
+</ul>
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Analyzing the `cd` command with a **DIRECTORY PATH** argument
 
 ``` 
