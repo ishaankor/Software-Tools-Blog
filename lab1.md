@@ -1,12 +1,9 @@
 # Lab Report 1 - Remote Access and FileSystem
 
 <ul>
-  
   ## 1. The `cd` Command
-
-<ul>
-
-### - Analyzing the `cd` command with **NO** argument
+  <ul>
+  ### - Analyzing the `cd` command with **NO** argument
 
 <ul>
 
