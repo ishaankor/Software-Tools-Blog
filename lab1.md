@@ -5,7 +5,7 @@
   ## 1. The `cd` Command
 
   <ol markdown="1">
-
+    
   ### - Analyzing the `cd` command with **NO** argument
   
   ```
@@ -15,37 +15,33 @@
 
   </ol>
 
-  ### - Analyzing the `cd` command with **NO** argument
+  ### - Analyzing the `cd` command with a **DIRECTORY PATH** argument
+
+  <ol markdown="1">
 
   ```
-  [user@sahara ~]$ cd
-  [user@sahara ~]$
+  [user@sahara ~]$ cd /home/lecture1
+  [user@sahara ~/lecture1]$ 
   ```
+
+  </ol>
+
+  ### - ### - Analyzing the `cd` command with a **FILE PATH** argument
+
+  <ol markdown="1">
+
+  ```
+  [user@sahara ~]$ cd /home/lecture1/README
+  bash: cd: /home/lecture1/README: Not a directory
+  ```
+
+  </ol>
+
+  ## 2. The `ls` command
 
 </ol>
   
 
-  
-### - Analyzing the `cd` command with **NO** argument
-
-```
-[user@sahara ~]$ cd
-[user@sahara ~]$
-```
-
->> ### - Analyzing the `cd` command with a **DIRECTORY PATH** argument
-
-```
-[user@sahara ~]$ cd /home/lecture1
-[user@sahara ~/lecture1]$ 
-```
-
->> ### - Analyzing the `cd` command with a **FILE PATH** argument
-
-```
-[user@sahara ~]$ cd /home/lecture1/README
-bash: cd: /home/lecture1/README: Not a directory
-```
 
 > ## 2. The `ls` command
 
