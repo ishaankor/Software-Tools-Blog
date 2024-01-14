@@ -42,7 +42,10 @@ bash: cd: /home/lecture1/README: Not a directory
 ## 2. Analyzing the `ls` command
 
 <ul>
+  <li>
+    ### - Analyzing the `ls` command with **NO** argument
 
+  </li>
 ### - Analyzing the `ls` command with **NO** argument
 
 <ul>
