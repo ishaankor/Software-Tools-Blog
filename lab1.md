@@ -1,8 +1,8 @@
-<div markdown="1">
+<div markdown=1>
   
   # Lab Report 1 - Remote Access and FileSystem
 
-  <ol markdown="1">
+  <ol markdown=1>
   
     ## 1. The `cd` Command
 
