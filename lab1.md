@@ -4,8 +4,6 @@
   
 ## 1. The `cd` Command
 
-</ul>
-
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Analyzing the `cd` command with **NO** argument
 
 <ul><ul><ul>
@@ -39,7 +37,7 @@ bash: cd: /home/lecture1/README: Not a directory
 
 </ul></ul></ul>
 
-## &nbsp;&nbsp;&nbsp;&nbsp; 2. Analyzing the `ls` command
+## 2. Analyzing the `ls` command
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Analyzing the `ls` command with **NO** argument
 
@@ -83,3 +81,5 @@ Hello.class  Hello.java  messages  README
 [user@sahara ~]$ cat
 
 ```
+
+</ul>
