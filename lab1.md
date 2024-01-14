@@ -6,21 +6,21 @@
 
 <ul>
 
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Analyzing the `cd` command with **NO** argument
+### - Analyzing the `cd` command with **NO** argument
 
 ```
 [user@sahara ~]$ cd
 [user@sahara ~]$
 ```
 
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Analyzing the `cd` command with a **DIRECTORY PATH** argument
+### - Analyzing the `cd` command with a **DIRECTORY PATH** argument
 
 ``` 
 [user@sahara ~]$ cd /home/lecture1
 [user@sahara ~/lecture1]$ 
 ```
 
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Analyzing the `cd` command with a **FILE PATH** argument
+### - Analyzing the `cd` command with a **FILE PATH** argument
 
 ```
 [user@sahara ~]$ cd /home/lecture1/README
