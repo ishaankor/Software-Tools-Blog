@@ -1,19 +1,23 @@
-# Lab Report 1 - Remote Access and FileSystem
-
-<ol markdown="1">
+<div markdown="1">
   
-  ## 1. The `cd` Command
+  # Lab Report 1 - Remote Access and FileSystem
 
   <ol markdown="1">
-    ### - Analyzing the `cd` command with **NO** argument
+  
+    ## 1. The `cd` Command
+
+    <ol markdown="1">
+    
+      ### - Analyzing the `cd` command with **NO** argument
 
   
-  ```
-  [user@sahara ~]$ cd
-  [user@sahara ~]$
-  ```
+      ```
+      [user@sahara ~]$ cd
+      [user@sahara ~]$
+      ```
 
-  </ol>
+    </ol>
+
 
   <ol markdown="1">
 
@@ -108,9 +112,11 @@
   java Hello messages/en-us.txt
   ```
 
+    </ol>
+
   </ol>
 
-</ol>
+</div>
   
 
 
