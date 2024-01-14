@@ -27,42 +27,28 @@
 bash: cd: /home/lecture1/README: Not a directory
 ```
 
-</ul>
-
 ## 2. Analyzing the `ls` command
 
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Analyzing the `ls` command with **NO** argument
-
-<ul><ul><ul>
+### - Analyzing the `ls` command with **NO** argument
 
 ```
 [user@sahara ~]$ ls
 lecture1
 ```
 
-</ul></ul></ul>
-
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Analyzing the `ls` command with a **DIRECTORY PATH** argument
-
-<ul><ul><ul>
 
 ```
 [user@sahara ~]$ ls /home/lecture1
 Hello.class  Hello.java  messages  README
 ```
 
-</ul></ul></ul>
-
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Analyzing the `ls` command with a **FILE PATH** argument
-
-<ul><ul><ul>
 
 ```
 [user@sahara ~]$ ls /home/lecture1/README
 /home/lecture1/README
 ```
-
-</ul></ul></ul>
 
 ## 3. Analyzing the `cat` command
 
@@ -74,4 +60,5 @@ Hello.class  Hello.java  messages  README
 
 ```
 
-</ul>
+</ul></ul>
+
