@@ -9,7 +9,7 @@
 [user@sahara ~]$
 ```
 
-## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Analyzing the `cd` command with a **DIRECTORY PATH** argument
+## &nbsp;&nbsp;&nbsp;&nbsp; - Analyzing the `cd` command with a **DIRECTORY PATH** argument
 
 ```
 [user@sahara ~]$ cd /home/lecture1
