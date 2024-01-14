@@ -2,49 +2,49 @@
 
 <ul>
   
-  ## 1. The `cd` Command
+## 1. The `cd` Command
   
-  <ul>
+<ul>
   
-    ### - Analyzing the `cd` command with **NO** argument
+### - Analyzing the `cd` command with **NO** argument
 
-      <ul>
+<ul>
 
-      ```
-      [user@sahara ~]$ cd
-      [user@sahara ~]$
-      ```
+```
+[user@sahara ~]$ cd
+[user@sahara ~]$
+```
 
-      </ul>
+</ul>
 
-    ### - Analyzing the `cd` command with a **DIRECTORY PATH** argument
+### - Analyzing the `cd` command with a **DIRECTORY PATH** argument
 
-      <ul>
+<ul>
 
-      ``` 
-      [user@sahara ~]$ cd /home/lecture1
-      [user@sahara ~/lecture1]$ 
-      ```
+```
+[user@sahara ~]$ cd /home/lecture1
+[user@sahara ~/lecture1]$ 
+```
 
-      </ul>
+</ul>
 
-    ### - Analyzing the `cd` command with a **FILE PATH** argument
+### - Analyzing the `cd` command with a **FILE PATH** argument
 
-      <ul>
+<ul>
 
-      ```
-      [user@sahara ~]$ cd /home/lecture1/README
-      bash: cd: /home/lecture1/README: Not a directory
-      ```
+```
+[user@sahara ~]$ cd /home/lecture1/README
+bash: cd: /home/lecture1/README: Not a directory
+```
       
-      </ul>
-  
-  </ul>
+</ul></ul>
 
 ## 2. Analyzing the `ls` command
 
 <ul>
-  <li> ### - Analyzing the `ls` command with **NO** argument </li>
+
+### - Analyzing the `ls` command with **NO** argument </li>
+
 <ul>
 
 ```
