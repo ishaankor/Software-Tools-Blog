@@ -1,8 +1,8 @@
 # Lab Report 1 - Remote Access and FileSystem
 
-1. ## The `cd` Command
+1. ## The *`cd`* Command
    
-   - ### Analyzing the `cd` command with **NO** arguments
+   - ### Analyzing the `cd` command with ***NO*** arguments
      
      - TESTING!
        
@@ -11,7 +11,7 @@
        [user@sahara ~]$
        ```
        
-   - ### Analyzing the `cd` command with a **DIRECTORY PATH** argument
+   - ### Analyzing the `cd` command with a ***DIRECTORY PATH*** argument
      
      - TESTING!
        
@@ -20,7 +20,7 @@
        [user@sahara ~/lecture1]
        ```
        
-   - ### Analyzing the `cd` command with a **FILE PATH** argument
+   - ### Analyzing the `cd` command with a ***FILE PATH*** argument
      
      - TESTING!
        
@@ -29,9 +29,9 @@
        bash: cd: /home/lecture1/README: Not a directory
        ```
        
-2. ## The `ls` command
+2. ## The *`ls`* command
    
-   - ### Analyzing the `ls` command with **NO** argument
+   - ### Analyzing the `ls` command with ***NO*** argument
      
      - TESTING!
        
@@ -40,7 +40,7 @@
        lecture1
        ```
        
-   - ### Analyzing the `ls` command with a **DIRECTORY PATH** argument
+   - ### Analyzing the `ls` command with a ***DIRECTORY PATH*** argument
      
      - TESTING!
        
@@ -49,7 +49,7 @@
        Hello.class  Hello.java  messages  README
        ```
        
-   - ### Analyzing the `ls` command with a **FILE PATH** argument
+   - ### Analyzing the `ls` command with a ***FILE PATH*** argument
      
      - TESTING!
        
@@ -58,9 +58,9 @@
        /home/lecture1/README
        ```
        
-5. ## The `cat` command
+5. ## The *`cat`* command
    
-   - ### Analyzing the `cat` command with **NO** argument
+   - ### Analyzing the `cat` command with ***NO*** argument
      
      - TESTING!
        
@@ -69,7 +69,7 @@
        [terminal copies keyboard inputs]
        ```
        
-   - ### Analyzing the `cat` command with a **DIRECTORY PATH** argument
+   - ### Analyzing the `cat` command with a ***DIRECTORY PATH*** argument
      
      - TESTING!
        
@@ -78,7 +78,7 @@
        cat: /home/lecture1: Is a directory
        ```
    
-   - ### Analyzing the `cat` command with a **FILE PATH** argument
+   - ### Analyzing the `cat` command with a ***FILE PATH*** argument
      
      - TESTING!
        
