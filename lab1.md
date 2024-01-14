@@ -2,7 +2,7 @@
 
 <ul>
   
-## 1. The `cd` Command
+  ## 1. The `cd` Command
 
 <ul>
 
@@ -97,8 +97,8 @@ Hello.class  Hello.java  messages  README
 <ul>
 
 ```
-[user@sahara ~]$ ls /home/lecture1
-Hello.class  Hello.java  messages  README
+[user@sahara ~]$ cat /home/lecture1
+cat: /home/lecture1: Is a directory
 ```
 
 </ul>
@@ -108,8 +108,11 @@ Hello.class  Hello.java  messages  README
 <ul>
 
 ```
-[user@sahara ~]$ ls /home/lecture1/README
-/home/lecture1/README
+[user@sahara ~]$ cat /home/lecture1/README
+To use this program:
+
+javac Hello.java
+java Hello messages/en-us.txt
 ```
 
 </ul></ul></ul></ul>
