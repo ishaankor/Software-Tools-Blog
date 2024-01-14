@@ -4,20 +4,18 @@
 
   <ol markdown=1>
   
-    ## 1. The `cd` Command
+  ## 1. The `cd` Command
 
-    <ol markdown="1">
+  <ol markdown="1">
     
-      ### - Analyzing the `cd` command with **NO** argument
+  ### - Analyzing the `cd` command with **NO** argument
 
-  
-      ```
-      [user@sahara ~]$ cd
-      [user@sahara ~]$
-      ```
+  ```
+  [user@sahara ~]$ cd
+  [user@sahara ~]$
+  ```
 
-    </ol>
-
+  </ol>
 
   <ol markdown="1">
 
