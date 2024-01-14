@@ -1,9 +1,12 @@
 # Lab Report 1 - Remote Access and FileSystem
 
 <ul>
-  ## 1. The `cd` Command
-  <ul>
-  ### - Analyzing the `cd` command with **NO** argument
+  
+## 1. The `cd` Command
+  
+<ul>
+  
+### - Analyzing the `cd` command with **NO** argument
 
 <ul>
 
@@ -112,6 +115,6 @@ javac Hello.java
 java Hello messages/en-us.txt
 ```
 
-</ul></ul></ul></ul>
+</ul></ul></ul>
 
 
