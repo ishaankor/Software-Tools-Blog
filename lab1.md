@@ -110,8 +110,6 @@
   java Hello messages/en-us.txt
   ```
 
-    </ol>
-
   </ol>
 
 </div>
