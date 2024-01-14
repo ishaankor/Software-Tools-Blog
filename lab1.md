@@ -1,10 +1,6 @@
-<div markdown=1>
+# Lab Report 1 - Remote Access and FileSystem
   
-  # Lab Report 1 - Remote Access and FileSystem
-
-  <ol markdown=1>
-  
-  ## 1. The `cd` Command
+## 1. The `cd` Command
 
   <ol markdown="1">
     
