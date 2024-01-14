@@ -6,12 +6,16 @@
 
   <ol markdown="1">
     
-  ### - Analyzing the `cd` command with **NO** argument
+    ### - Analyzing the `cd` command with **NO** argument
+
+    <ol markdown="1">
     
-  ```
-  [user@sahara ~]$ cd
-  [user@sahara ~]$
-  ```
+      ```
+      [user@sahara ~]$ cd
+      [user@sahara ~]$
+      ```
+
+    </ol>
 
   </ol>
 
