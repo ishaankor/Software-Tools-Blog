@@ -1,8 +1,12 @@
 # Lab Report 1 - Remote Access and FileSystem
+
+<ol, markdown="1">
+  ## 1. The `cd` Command
+</ol>
   
-&nbsp;&nbsp;&nbsp;&nbsp; ## 1. The `cd` Command
+
   
->> ### - Analyzing the `cd` command with **NO** argument
+### &nbsp;&nbsp; - Analyzing the `cd` command with **NO** argument
 
 ```
 [user@sahara ~]$ cd
