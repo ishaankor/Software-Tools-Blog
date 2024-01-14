@@ -7,8 +7,6 @@
   <ol markdown="1">
     
   ### - Analyzing the `cd` command with **NO** argument
-
-  <ol markdown="1">
   
   ```
   [user@sahara ~]$ cd
