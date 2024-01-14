@@ -11,7 +11,8 @@
 
 ## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Analyzing the `cd` command with a **DIRECTORY PATH** argument
 
-```
+&nbsp;&nbsp;&nbsp;&nbsp;
+``` 
 [user@sahara ~]$ cd /home/lecture1
 [user@sahara ~/lecture1]$ 
 ```
