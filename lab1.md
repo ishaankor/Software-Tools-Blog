@@ -4,12 +4,23 @@
    
    - ### Analyzing the `cd` command with ***NO*** arguments
      
-     - TESTING!
+     - Given that the current `working directory` (checked by running `pwd`) is `/home`, the `cd` command with **NO** arguments simply outputs nothing as no change is made. To have          no arguments, the `cd` command changes the current `working directory` to its `parent directory`. The output - while it can be misleading - is indeed **not** an error because
+       there is no `parent directory` to the `root directory`. 
        
        ```
        [user@sahara ~]$ cd
        [user@sahara ~]$
        ```
+       
+     - In this instance, the current `working directory` is `/home/lecture1` where the `messages` folder and three files (`Hello.class`, `Hello.java`, and `README`) are located at.
+       By running the `cd` command with **NO** arguments in this `working directory`, it outputs the change from the `working directory` to the `parent directory` which is the `root
+       directory` (or `/home`). This is **not** an error because it correctly changed the `working directory` to its `parent directory`, much like in the prior example.
+
+       ```
+       [user@sahara ~/lecture1]$ cd
+       [user@sahara ~]$
+       ```
+ 
        
    - ### Analyzing the `cd` command with a ***DIRECTORY PATH*** argument
      
@@ -29,7 +40,7 @@
        bash: cd: /home/lecture1/README: Not a directory
        ```
        
-2. ## The *`ls`* command
+1. ## The *`ls`* command
    
    - ### Analyzing the `ls` command with ***NO*** arguments
      
