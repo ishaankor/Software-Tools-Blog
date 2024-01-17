@@ -70,7 +70,7 @@
    
    - ### Analyzing the `cat` command with ***NO*** arguments
      
-     -  Starting at the `root directory`, the `cat` command with **no** arguments outputs keyboard input as there are no files within the filesystem - just the `lecture1 directory`.  Similarly to the `ls` command, the `cat`            command relies on the argument as it provides the necessary `file path` to print its content. From first glance, this can seem like an error when it really is **not**. The terminal is defaulting to reading the standard         input as there are **no** arguments.
+     -  Starting at the `root directory`, the `cat` command with **no** arguments outputs keyboard input as there are no files within the filesystem - just the `lecture1 directory`.  Similarly to the `ls` command, the `cat`            command relies on the argument as it provides the necessary `file path` to print its content. From first glance, this seems like an error when it really is **not**. The terminal is defaulting to reading the standard         input as there are **no** arguments.
 
         ```
         [user@sahara ~]$ cat
@@ -79,7 +79,7 @@
        
    - ### Analyzing the `cat` command with a ***DIRECTORY PATH*** argument
      
-     - TESTING!
+     - Trying the `cat` command with the argument (`/home/lecture1`) will **raise** an error - for a good reason. Because the `cat` command wants to read the content of a specific `file`, this command (if it worked) would effectively copy what the `ls` command does. The `/home/lecture1` argument has no specific file to read its contents - that's the point of the `cat` command.
        
        ```
        [user@sahara ~]$ cat /home/lecture1
@@ -88,7 +88,7 @@
    
    - ### Analyzing the `cat` command with a ***FILE PATH*** argument
      
-     - TESTING!
+     - Having a `file path` argument for the `cat` command should allow the terminal to output the specified `file's` content. The `cat` command is similar to the `ls` command where the current `filesystem` (`root directory`) is not used in the command and rather looks for a `file path` to read from. Using `/home/lecture1/README` as the `file path` argument, the terminal successfully prints out what is inside `README` - this is why the output is **not** an error. 
        
        ```
        [user@sahara ~]$ cat /home/lecture1/README
