@@ -2,5 +2,6 @@
 
 ## Part 1:
       - My `ChatServer` code block:
-      ![`ChatServer` code screenshot](~/Untitled.png "Screenshot")
+        ![Screenshot](https://i.imgur.com/ieWxHW0.png "Code block")
+
 
