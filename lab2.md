@@ -30,13 +30,13 @@
   
   - Absolute path to the *private* key for my SSH key for logging into `ieng6`
  
-    ![Imgur](https://imgur.com/0Ko0STn.jpeg)
+    ![Imgur](https://i.imgur.com/Jw5cMPg.jpeg)
 
     - This credential (**id_rsa**) is what allows me to *privately* access the `ieng6` machines in the CSE Lab. Being a *private* authentication, it allows me to remotely connect to a system through the identification of my local host (computer) rather than a general one (*public* key). 
  
   - Absolute path to the *public* key for my SSH key for logging into `ieng6`
  
-    ![Imgur](https://imgur.com/0Ko0STn.jpeg)
+    ![Imgur](https://i.imgur.com/Jw5cMPg.jpeg)
 
     - This credential (**id_rsa.pub**) is what allows me to *publicly* access the `ieng6` machines in the CSE Lab. Because it is a *public* token of access, I am connecting to a specific `ieng6` machine through a public connection. This means that I am connecting through a general gateway rather a gated one (*private* key). 
 
