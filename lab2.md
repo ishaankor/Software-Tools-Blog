@@ -3,7 +3,7 @@
 - ## Part 1:
   - My `ChatServer` code block:
     
-    <img src="https://imgur.com/ieWxHW0.png" alt="Imgur" length="250"/>
+    <img src="https://imgur.com/ieWxHW0.png" alt="Imgur" height="650"/>
     
   - The `add-message` command:
 
