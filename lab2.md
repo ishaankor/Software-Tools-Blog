@@ -3,7 +3,7 @@
 - ## Part 1:
   - My `ChatServer` code block:
     
-     ![Imgur](https://imgur.com/ieWxHW0.png)
+    <img src="https://imgur.com/ieWxHW0.png" alt="Imgur" length="500"/>
     
   - The `add-message` command:
 
@@ -36,9 +36,9 @@
  
   - Absolute path to the *public* key for my SSH key for logging into `ieng6`
  
-    ![Imgur](https://i.imgur.com/Jw5cMPg.jpeg)
+    ![Imgur](https://i.imgur.com/IQX99hH.jpeg)
 
-    - This credential (**id_rsa.pub**) is what allows me to *publicly* access the `ieng6` machines in the CSE Lab. Because it is a *public* token of access, I am connecting to a specific `ieng6` machine through a public connection. This means that I am connecting through a general gateway rather a gated one (*private* key). 
+    - This credential (**authorization_keys**) is what allows me to *publicly* access the `ieng6` machines in the CSE Lab computers. Because it is a *public* token of access, I am connecting to a specific `ieng6` machine through a `remote` connection. This means that I am connecting through a general gateway rather a gated one (*private* key). 
 
  
   - Terminal interaction where logging into my `ieng6` account *without* being asked for a password
