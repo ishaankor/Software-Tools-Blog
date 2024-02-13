@@ -39,6 +39,9 @@
          }
          ```
      - `Symptom` of running the `JUnit` tests:
+    
+       ![image](https://github.com/ishaankor/cse15l-lab-reports/assets/113160688/53476e47-2180-4e25-be9f-f8e19f4941eb)
+
        - `reversed()`:
 
          ![image](https://github.com/ishaankor/cse15l-lab-reports/assets/113160688/a6d8a213-e175-4b08-b608-040e40ac276d)
@@ -72,6 +75,7 @@
              return newArray;
            }
            ```
+         - This fix addresses the issue...
        - `reverseInPlace()`:
          - Before:
            ```
@@ -90,6 +94,7 @@
              }
            }
            ```
+         - This fix addresses the issue...
            
 3. ## Part 2 - Researching Commands:
    - 
