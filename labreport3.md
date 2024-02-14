@@ -1,10 +1,10 @@
 # Lab Report 3 - Bugs and Commands (Week 5)
 
 1. ## Part 1 - Bugs:
-   - ### **Array Methods - `ArraryExamples.java`**:
+   - ### **Array Methods - `ArrayExamples.java`**:
      - Failure-inducing `JUnit` test inputs for `reversed()` and `reverseInPlace()`:
        - `reversed()`:
-         ```
+         ```java
          @Test
          public void secondTestReversed() {
            int[] input2 = { 1, 2, 3 };
@@ -12,7 +12,7 @@
          }
          ```
        - `reverseInPlace()`:
-         ```
+         ```java
          @Test
          public void secondTestReverseInPlace() {
            int[] input2 = { 1, 2, 3 };
@@ -20,9 +20,11 @@
            assertArrayEquals(new int[]{ 3, 2, 1 }, input2);
          }
          ```
+       - These `JUnit` tests both produce failures as the functions cannot perform the necessary operations needed to return the correct return values. These `test cases` have multiple `inputs` and is the reason why the `functions` can't process with these `parameters`.
+         
      - Success-inducing `JUnit` test inputs for `reversed()` and `reverseInPlace()`:
        - `reversed()`:
-         ```
+         ```java
          @Test
          public void testReversed() {
            int[] input1 = { };
@@ -30,7 +32,7 @@
          }
          ```
        - `reverseInPlace()`:
-         ```
+         ```java
          @Test
          public void testReverseInPlace() {
            int[] input1 = { 3 };
@@ -38,6 +40,8 @@
            assertArrayEquals(new int[]{ 3 }, input1);
          }
          ```
+       - As for these `JUnit` tests, they produce successes as the `inputs` are either one value or empty. Seeing how there is no need to reverse such `test cases`, it will be successful.
+         
      - `Symptom` of running the `JUnit` tests:
     
        ![image](https://github.com/ishaankor/cse15l-lab-reports/assets/113160688/53476e47-2180-4e25-be9f-f8e19f4941eb)
@@ -45,10 +49,14 @@
        - `reversed()`:
 
          ![image](https://github.com/ishaankor/cse15l-lab-reports/assets/113160688/a6d8a213-e175-4b08-b608-040e40ac276d)
+    
+         - This `symptom` shows how the `JUnit` test case (`secondTestReversed()`) failed as it couldn't find the correct values within the positions of the object containing `ArrayExamples.reversed(input2)`. 
 
        - `reverseInPlace()`:
        
          ![image](https://github.com/ishaankor/cse15l-lab-reports/assets/113160688/aaa16abb-78d1-40bb-af6e-064f6a2c9d32)
+       
+         - This `symptom` shows how the `JUnit` test case (`secondTestReverseInPlace()`) failed as it couldn't find the correct values within the positions of the object containing `assertArrayEquals(new int[]{ 3, 2, 1 }, input2)`. 
   
      - `Bug` shown in before-and-after code changes:
     
@@ -56,7 +64,7 @@
 
        - `reversed()`:
          - Before:
-           ```
+           ```java
            static int[] reversed(int[] arr) {
              int[] newArray = new int[arr.length];
              for(int i = 0; i < arr.length; i += 1) {
@@ -66,7 +74,7 @@
            }
            ```
          - After:
-           ```
+           ```java
            static int[] reversed(int[] arr) {
              int[] newArray = new int[arr.length];
              for(int i = 0; i < arr.length; i += 1) {
@@ -75,10 +83,11 @@
              return newArray;
            }
            ```
-         - This fix addresses the issue...
+         - This fix addresses the issue as it fixes the correct `ArrayList` being reversed. The `bug` lies in `arr[i] = newArray[arr.length - i - 1];` as the function aims to return a new `int ArrayList` that is a reverse of the `parameter`. By swapping `arr[i]` with `newArray[i]`, the method effectively reverses the `parameter` and returns the `ArrayList` in `newArray`.
+           
        - `reverseInPlace()`:
          - Before:
-           ```
+           ```java
            static void reverseInPlace(int[] arr) {
              for(int i = 0; i < arr.length; i += 1) {
                arr[i] = arr[arr.length - i - 1];
@@ -86,7 +95,7 @@
            }
            ```
          - After:
-           ```
+           ```java
            static void reverseInPlace(int[] arr) {
              int[] arrCopy = arr.clone();
              for(int i = 0; i < arrCopy.length; i += 1) {
@@ -94,9 +103,9 @@
              }
            }
            ```
-         - This fix addresses the issue...
+         - This fix addresses the issue as it fixes the recursive process of reassigning the values in `int[] arr` (the `parameter`) when parsing through it. This function wants to return a reverse of the `parameter` instead of a new `int ArrayList` - essentially, the opposite of `reversed()`. The changed code creates a copy of the `parameter`, which is then  parsed through in order to assign the correct values to `arr`.
            
-3. ## Part 2 - Researching Commands:
+2. ## Part 2 - Researching Commands:
    - ### The `grep` command-line options:
      - `grep --line-number`:
        - File - `1477-7819-1-10.txt`:
@@ -127,6 +136,7 @@
          ./biomed//gb-2003-4-6-r39.txt:484:          M. javanica with the cognate genes
          ./biomed//gb-2003-4-6-r39.txt:752:          M. javanica (WMj) sequences from
          ./biomed//gb-2003-4-6-r39.txt:758:          M. javanica datasets from NCBI (NMi
+       - The `--line-number` command-line option works by finding the *PATTERN* (in this case, it was "bio" and "java" for their respective test cases) in a file and the line in which they are located in. This tends to be incredibly useful as it allows the user to quickly find the correct line to search for regarding the given *PATTERN* in any file - this saves a lot of time!
          
      - `grep --count`:
        - File - `1-3_meth_901.txt`:
@@ -152,6 +162,7 @@
          ./government/Env_Prot_Agen/nov1.txt:6
          ./government/Env_Prot_Agen/tech_adden.txt:6
          ```
+      - The `--count` command-line option is useful in finding out how many instances of the *PATTERN* that exists within any file - this gives the user a numerical summary of the *PATTERN* occurences. It works by counting the instances of *PATTERN* in a file and then outputs the total number per file. 
          
     - `grep --before-context`:
       - File - `chapter 8.txt`:
@@ -172,6 +183,8 @@
         ./911report//chapter-8.txt-                    "bring the fighting to America." After US missile strikes on his base in
         ./911report//chapter-8.txt:                    Afghanistan in 1998, Bin Ladin told followers he wanted to retaliate in
         ```
+      - The `--before-context` command-line option finds all instances of the *PATTERN* and outputs the line (context) that comes **before** each instance. This option is quite useful when gathering information about the *PATTERN* as it gives the user a defined number of lines that come before the *PATTERN* instance, effectively giving **context**.
+        
     - `grep --ignore-case`:
       - File - `Advocate_for_Poor.txt`:
         ```
@@ -215,4 +228,5 @@
         ./government/Media//Greedy_Generous.txt:information about the latest salary increase or layoffs is shared
         ./government/Media//Greedy_Generous.txt:generousassociates are another testament to the profession's
         ```
+      - The `--ignore-case` command-line option is similar to that of `--before-context` except it only provides the exact line in which the *PATTERN* instance occured. This is useful if people are looking for the lines in which the *PATTERN* are located in regardless of case senstivity and context. 
         
