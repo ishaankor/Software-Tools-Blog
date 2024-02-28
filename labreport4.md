@@ -1,32 +1,32 @@
 # Lab Report 4 - Vim
 
-- ## Step 4: Logging into ieng6
+- ## Step 4: Logging into a ieng6-201 server
   ![Untitled](https://github.com/ishaankor/cse15l-lab-reports/assets/113160688/bffcda05-01f8-48a7-9ed2-9ab71c052baa)
   - Keys pressed/typed: `'ssh ikoradia'` &rarr; `<command> + <v>` &rarr; `<enter>`
-    - To summarize, I had to first type `ssh` and my Tritonlink username (`ikoradia`) so that I could paste the `ieng6`'s server address (`@ieng6-201.ucsd.edu`, which was stored in my clipboard via `<command> + <c>`) into the terminal without having to type it all out. The aftermath of these key presses is that it saved me a lot of time and it cut down the total amount of keys pressed if typed manually. After that, I sent the command through the terminal by hitting the return key (`<enter>`). 
+    - To summarize, I had to first type `ssh` and my Tritonlink username (`ikoradia`) so that I could **paste** the `ieng6`'s **server address** (`@ieng6-201.ucsd.edu`, which was stored in my **clipboard** via `<command> + <c>`) into the **terminal** without having to type it all out. After that, I sent the **command** (`ssh ikoradia@ieng6-201.ucsd.edu`) through the **terminal** by hitting the return key (`<enter>`). 
          
 - ## Step 5: Cloning my fork of the repository from my Github account (using the SSH URL)
   ![Untitled](https://github.com/ishaankor/cse15l-lab-reports/assets/113160688/a502606f-fcd3-4b6a-a41d-991fccafa267)
   - Keys pressed/typed: `'git clo'` &rarr; `<tab>` &rarr; `<command> + <v>` &rarr; `<enter>`
-    - s
+    - Because I knew that I could save time by ****autofill**ing** the **commands**, I typed out 'git clo' so that I could hit the tab key (`<tab>`) in order to get `'git clone'`. I then went over to my `forked` **repository** of `lab7`, where I copied (`<command> + <c>`) the `SSH` **url** (`git@github.com:ishaankor/lab7.git`) that allows me to clone the **repository** onto the `ieng6` machine. Putting it all together, I **pasted** the `SSH` **url** (`<command> + <v>`) onto the **command line** and hit the return key (`<enter>`) in order to send the **command** (`git clone git@github.com:ishaankor/lab7.git`) through the **terminal**. 
   
 - ## Step 6: Running the tests, demonstrating that they fail
   ![Untitled](https://github.com/ishaankor/cse15l-lab-reports/assets/113160688/ba0d5280-0e1f-4a58-a0fe-2fa933d9d7f2)
   - Keys pressed/typed: `'cd l'` &rarr; `<tab>` &rarr; `<enter>` &rarr; `'bash t'` &rarr; `<tab>` &rarr; `<enter>`
-    - s
+    - In order to run the **JUnit** tests, I had to first `cd` into `lab7`. I started by first typing out `cd` and then only 'l' so that I could **autofill** the rest (`cd lab7`) by pressing the tab key (`<tab>`). To work in the **directory**, I sent the **command** through the **terminal** by pressing the return key (`<enter>`). Now that the **terminal** is in the correct **directory** (`lab7`), I ran the tests by typing out 'bash l' and **autofill** the rest by pressing the tab key (`<tab>`). I finally sent the **command** (`bash test.sh`) through the **terminal** by pressing the return key (`<enter>`). 
 
 - ## Step 7: Editing the code file to fix the failing test
   ![Untitled](https://github.com/ishaankor/cse15l-lab-reports/assets/113160688/7b4b7826-bd4e-41be-b4cd-a7caf1736675)
-  - Keys pressed/typed: `'vim L'` &rarr; `<tab>` &rarr; `<.>` &rarr; `<tab>` &rarr; `<enter>` &rarr; `<4>` &rarr; `<4>` &rarr; `<shift> + <g>` &rarr; `<e>` &rarr; `<x>` &rarr; `<i>` &rarr; `<2>` &rarr; `<esc>` &rarr; `':wq!'` &rarr; `<enter>`
-    - s
+  - Keys pressed/typed: `'vim L'` &rarr; `<tab>` &rarr; `<.>` &rarr; `<tab>` &rarr; `<enter>` &rarr; `<4>` &rarr; `<4>` &rarr; `<shift> + <g>` &rarr; `<e>` &rarr; `<x>` &rarr; `<i>` &rarr; `<2>` &rarr; `<esc>` &rarr; `':wq'` &rarr; `<enter>`
+    - Getting to edit the code file through the `SSH` session would be hard to do - I needed to use the `vim` command. I started to first type out 'vim L' and then **autofill** the rest by hitting the tab key (`<tab>`) to get `vim ListExamples`. To get the full **filename** (`ListExamples.java`), I typed out '.' and then again, pressed the tab key to **autofill** the rest so that I could send the **command** (`vim ListExamples.java`) through the **terminal**. In the `vim` editor, I pressed '4' twice and then 'G' (`<shift> + <g>`) so that I could navigate (pressing 'G' navigates to the line corresponding to the number before it, which was '44') to line 44 of the **file**. Upon reaching the line, I pressed 'e' so that I could get to the end of the first word which was '1' (`index1`) and then I fixed the line by pressing 'x' and then 'i', where I pressed '2' to get `index2`. By pressing `x`, I deleted '1' which was the current character (the effect of pressing 'e') and then I inserted '2' because I pressed 'i' (insert mode). Finally, I had to quit the **insert mode** by hitting the escape key (`<esc>`) and then I typed ':wq' and the return key (`<enter>`) to save and quit from the `vim editor`.
       
 - ## Step 8: Running the tests, demonstrating that they now succeed <br> 
   ![Untitled](https://github.com/ishaankor/cse15l-lab-reports/assets/113160688/bbbe053e-ab2e-4683-8738-7389c22d4ec3)
   - Keys pressed/typed: `<up>` &rarr; `<up>` &rarr; `<enter>`
-    - s
+    - Returning from the `vim editor`, I had to run the tests to verify that the code file works. I then went through the `bash` history to get back to `bash test.sh` by hitting the up key (`<up>`) twice. At the end, I had to send the **command** through the **terminal** by hitting the return key (`<enter>`). 
 
 - ## Step 9: Committing and pushing the resulting change to my Github account
   ![Untitled](https://github.com/ishaankor/cse15l-lab-reports/assets/113160688/86838bc4-368e-4f95-9de2-831bb55de8e3)
-  - Keys pressed/typed: `'git ad'` &rarr; `<tab>` &rarr; `<shift> + <l>` &rarr; `<tab>` &rarr; `<.>` &rarr; `<j>` &rarr; `<tab>` &rarr; `<enter>` &rarr; `'git com'` &rarr; `<tab>` &rarr; `'-m'` &rarr; `"Fixed ListExamples.java"` &rarr; `<enter>` &rarr; `'git push -u o'` &rarr; `<tab>` &rarr; `<m>` &rarr; `<tab>` &rarr; `<enter>`
-    - s
+  - Keys pressed/typed: `'git ad'` &rarr; `<tab>` &rarr; `<shift> + <l>` &rarr; `<tab>` &rarr; `<.>` &rarr; `<j>` &rarr; `<tab>` &rarr; `<enter>` &rarr; `'git com'` &rarr; `<tab>` &rarr; `'-m'` &rarr; `"Fixed ListExamples.java"` &rarr; `<enter>` &rarr; `'git pu'` &rarr; `<tab>` &rarr; `'-u o'` &rarr; `<tab>` &rarr; `<m>` &rarr; `<tab>` &rarr; `<enter>`
+    - Making those edits to the `ListExamples.java`, I now had to **commit** and **push** the changes to my `forked` **repository** on my Github account. I first needed to add the changes in `ListExamples.java` to a **staging area** where it marks the file to be included in the next **commit**. I started by first typing out 'git ad' so that I can **autofill** the rest of the command (`git add`) by pressing the tab key (`<tab>`). Then, I finished the command by inputting the first letter of the file which is 'L' (`<shift> + <l>`) and then **autofill**ed the rest to get `ListExamples`. The command, at this point, was missing `.java` so I typed out '.j' where it **autofill**ed the missing part by pressing the tab key (`<tab>`). I then sent the command through the **terminal** by hitting the return key (`<enter>`). With these staged changes, I now started to commit these changes by typing out 'git com' and then **autofill**ed to get the rest by hitting the tab key (`<tab>`) to get `git commit`. To include a commit message, I had to type out the command line option '-m' (enables commit messages) and then the message which was "Fixed ListExamples.java". I once again sent the command through the **terminal** to get ready for pushing the commit to GitHub. Last but not least, I had to push the commit by typing out 'git pu' and then **autofill** the rest by pressing the tab key (`<tab>`). Including the flag ('-u') is crucial for upstreaming the local data into the remote repository (`origin`) so that explains why I typed out '-u'. The 'o' that is hanging out is then **autofill**ed to 'origin' by pushing the tab key (`<tab>`) and then I typed out 'm' to **autofill** to `main` where it pushes the commit to the `main` branch. To finish it all, I sent the command through the **terminal** by hitting the return key (`<enter>`). 
 
