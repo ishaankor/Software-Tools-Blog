@@ -138,7 +138,7 @@
          ./biomed//gb-2003-4-6-r39.txt:758:          M. javanica datasets from NCBI (NMi
          ```
          - The `--line-number` command-line option works by finding the *PATTERN* (in this case, it was "bio" and "java" for their respective test cases) in a file and the line in which they are located in. This tends to be incredibly useful as it allows the user to quickly find the correct line to search for regarding the given *PATTERN* in any file - this saves a lot of time!
-         - Source: https://man7.org/linux/man-pages/man1/grep.1.html
+           - Source: https://man7.org/linux/man-pages/man1/grep.1.html
          
      - `grep --count`:
        - File - `1-3_meth_901.txt`:
@@ -165,7 +165,7 @@
          ./government/Env_Prot_Agen/tech_adden.txt:6
          ```
          - The `--count` command-line option is useful in finding out how many instances of the *PATTERN* that exists within any file - this gives the user a numerical summary of the *PATTERN* occurences. It works by counting the instances of *PATTERN* in a file and then outputs the total number per file.
-         - Source: https://man7.org/linux/man-pages/man1/grep.1.html
+           - Source: https://man7.org/linux/man-pages/man1/grep.1.html
          
      - `grep --before-context`:
        - File - `chapter 8.txt`:
@@ -188,7 +188,7 @@
          ```
          - The `--before-context` command-line option finds all instances of the *PATTERN* and outputs the line (context) that comes **before** each instance. This option is quite
         useful when gathering information about the *PATTERN* as it gives the user a defined number of lines that come before the *PATTERN* instance, effectively giving **context**.
-         - Source: https://man7.org/linux/man-pages/man1/grep.1.html
+           - Source: https://man7.org/linux/man-pages/man1/grep.1.html
 
      - `grep --ignore-case`:
        - File - `Advocate_for_Poor.txt`:
@@ -234,5 +234,5 @@
          ./government/Media//Greedy_Generous.txt:generousassociates are another testament to the profession's
          ```
          - The `--ignore-case` command-line option is similar to that of `--before-context` except it only provides the exact line in which the *PATTERN* instance occured. This is useful if people are looking for the lines in which the *PATTERN* are located in regardless of case senstivity and context.
-         - Source: https://man7.org/linux/man-pages/man1/grep.1.html
+           - Source: https://man7.org/linux/man-pages/man1/grep.1.html
         
