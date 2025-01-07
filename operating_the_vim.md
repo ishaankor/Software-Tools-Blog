@@ -1,4 +1,4 @@
-# Lab Report 4 - Vim
+# Operating The Vim
 
 - ## Step 4: Logging into a ieng6-201 server
   ![Untitled](https://github.com/ishaankor/cse15l-lab-reports/assets/113160688/bffcda05-01f8-48a7-9ed2-9ab71c052baa)
