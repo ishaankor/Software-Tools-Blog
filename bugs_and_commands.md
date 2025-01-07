@@ -1,4 +1,4 @@
-# Lab Report 3 - Bugs and Commands
+# Bugs and Commands
 
 1. ## Part 1 - Bugs:
    - ### **Array Methods - `ArrayExamples.java`**:
