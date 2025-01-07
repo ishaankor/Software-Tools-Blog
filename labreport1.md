@@ -1,4 +1,4 @@
-# Lab Report 1 - Remote Access and FileSystem
+# Remote Access and FileSystem
 
 1. ## The *`cd`* Command
    
