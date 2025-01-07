@@ -1,4 +1,4 @@
-# Lab Report 5 - Putting It All Together
+# Putting It All Together
 
 - ## Part 1: Debugging Scenario
   - ### Student Post:
